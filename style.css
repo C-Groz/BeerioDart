@@ -1,0 +1,89 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .header {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+  }
+  
+  .header img {
+    max-width: 250px; /* Adjust the width as needed */
+    max-height: 150px; /* Adjust the height as needed */
+    display: block;
+    margin: 0 auto;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-bottom: 4px solid black;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size:25px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #007BFF; /* Change the color on hover as needed */
+  }
+  
+  /* Style the main content */
+  main {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Ensure each rule is on a single line */
+  ul li {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Additional styling for li2 class */
+  ul li.li2 {
+    display: block;
+    margin-bottom: 10px;
+    white-space: normal; /* Display each li2 item on a new line */
+    overflow: visible;
+    text-overflow: initial;
+  }
+
+  #timer {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px; /* Adjust the top margin as needed */
+  }

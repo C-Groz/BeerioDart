@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Beerio Dart - Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="header">
+      <img src="Cgrozier logo 1-02.png" alt="Crozier Logo">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rules.html">Rules</a></li>
+          <li><a href="calculator.html">Calculator</a></li>
+          <!-- Add more list items as needed -->
+        </ul>
+      </nav>
+    </div>
+    <main>
+        <h1>Beerio Dart Calculator</h1>
+        <div>
+            <label for="team1">Team 1 Score:</label>
+            <input type="number" id="team1" placeholder="Enter score for Team 1">
+        </div>
+        <div>
+            <label for="team2">Team 2 Score:</label>
+            <input type="number" id="team2" placeholder="Enter score for Team 2">
+        </div>
+        <button onclick="calculateDifference()">Calculate Difference</button>
+        <p id="result"></p>
+        </main>
+    <script src="index.js"></script>
+  </body>
+</html>
